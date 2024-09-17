@@ -1,0 +1,67 @@
+@define-color foreground #84c0cd; /* rgba(132, 192, 205, 1) */
+@define-color background #1c1235; /* rgba(28, 18, 53, 1) */
+@define-color cursor #84c0cd;
+
+@define-color color0 #1c1235;
+@define-color color1 #4D33A1;
+@define-color color2 #2E4B95;
+@define-color color3 #3250A7;
+@define-color color4 #216CA3;
+@define-color color5 #4A50BE;
+@define-color color6 #B622A6;
+@define-color color7 #84c0cd;
+@define-color color8 #5c868f;
+@define-color color9 #4D33A1;
+@define-color color10 #2E4B95;
+@define-color color11 #3250A7;
+@define-color color12 #216CA3;
+@define-color color13 #4A50BE;
+@define-color color14 #B622A6;
+@define-color color15 #84c0cd;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Courier, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+    color: @foreground;
+}
+
+window#waybar {
+    background: rgba(28, 18, 53, 0.7);
+    color: white;
+}
+
+label.module {
+    padding: 0 10px;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+
+tooltip label {
+  color: white;
+}
+
+#workspaces button.active {
+    background-color: rgba(28, 18, 53, 0.95);
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#tray {
+    padding-right: 10px;
+}
