@@ -1,0 +1,76 @@
+* {
+/* `otf-font-awesome` is required to be installed for icons */
+font-family: CommitMono;
+font-size: 13px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    color: #cad3f5;
+}
+
+#workspaces button.active {
+    border: 2 solid #494d64;
+    border-radius: 25;
+    background-color: #494d64;
+}
+
+#workspaces {
+    border: 2 solid #363a4f;
+    border-radius: 25;
+    background-color: #363a4f;
+}
+
+#workspaces label {
+    color: #cad3f5;
+}
+
+#clock {
+    padding: 0 10px;
+    border: 2 solid #363a4f;
+    border-radius: 25;
+    background-color: #363a4f;
+}
+
+#keyboard-state {
+    padding: 0 10px;
+    border: 2 solid #363a4f;
+    border-radius: 25;
+    background-color: #363a4f;
+}
+
+#keyboard-state label.locked {
+    color: rgba(202, 211, 245, 1);
+}
+
+#keyboard-state label {
+    color: rgba(0,0,0,0);
+}
+
+#pulseaudio {
+    padding: 0 10px;
+    border: 2 solid #363a4f;
+    border-radius: 25;
+    background-color: #363a4f;
+}
+
+#memory {
+    padding: 0 10px;
+    border: 2 solid #363a4f;
+    border-radius: 25;
+    background-color: #363a4f;
+}
+
+#cpu {
+    padding: 0 10px;
+    border: 2 solid #363a4f;
+    border-radius: 25;
+    background-color: #363a4f;
+}
+
+#tray {
+    padding: 0 10px;
+    border: 2 solid #363a4f;
+    border-radius: 25;
+    background-color: #363a4f;
+}
